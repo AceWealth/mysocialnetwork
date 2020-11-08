@@ -1,12 +1,5 @@
 <!-- Logo -->
 
-# ⚠️ We no longer develop this repository. Follow new version in [Telar Social](https://telar.press). Telar Social Network composed by:
- - [Telar Social User Interface](https://github.com/red-gold/ts-ui) using ReactJS.
- - **Telar Social running on Kubernetes** (public cloud, private cloud or on-premise)
-    - [Telar Web](https://github.com/red-gold/telar-web) designed for handling authentication, notifications, realtime actions, file storage and admin services. 
-    - [Telar Social Serverless](ttps://github.com/red-gold/ts-serverless) handling posts, comments, votes, social community and media services.
-## [Telar Social one-click setup: OpenFaaS Cloud Community Cluster](https://medium.com/red-gold/telar-social-one-click-setup-openfaas-cloud-community-cluster-68814b3bf47c) in free tier.
-
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e87fdd68894b4e66b8db7108b3571cf6)](https://app.codacy.com/app/red-gold/react-social-network?utm_source=github.com&utm_medium=referral&utm_content=red-gold/react-social-network&utm_campaign=Badge_Grade_Dashboard)
 [![Gitter](https://badges.gitter.im/react-social-network/Lobby.svg)](https://gitter.im/react-social-network/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <br/>
@@ -20,21 +13,6 @@ The structure of this project give the ability to developer to develop their pro
     <img src="https://raw.githubusercontent.com/red-gold/react-social-network/next/docs/app/multi-device.png">
   </a>
 </p>
-
-
-## Support with buying a coffee ☕️☕️☕️
-Our top backers [Become a backer](https://www.patreon.com/qolzam)
-
-## Sponsors 🥉🥈🥇
-Our top sponsors [Become a sponsor](https://www.patreon.com/qolzam)
-
-## 🌟New Upgrade :
-React Social Network is [moving on](https://github.com/red-gold/react-social-network/issues/48) [redux-saga](https://redux-saga.js.org/) however we keep [redux-thunk](https://github.com/gaearon/redux-thunk) version of **React Social Network** in branch name `v0.5`. Any contribution would be greatly appreciated by :heart:.
- 
->You should consult the [CHANGELOG](https://github.com/red-gold/react-social-network/blob/next/CHANGELOG.md) and related issues for more information
-
-This project adheres to the Contributor Covenant [code of conduct](https://github.com/red-gold/react-social-network/blob/next/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior to amir.gholzam@live.com.
 
 ## Before Starting
 First of all this is a boilerplate react social and the purpose is to find the best way to implement a huge project such as social network by [React](https://facebook.github.io/react/docs/hello-world.html) . We learn what technology or algorithm could be better solution for our project by [React](https://facebook.github.io/react/docs/hello-world.html). Please approach to this project with these ideas and if you feel that you have better solution, to our great pleasure if we could have your contribution.
