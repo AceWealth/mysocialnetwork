@@ -1,8 +1,5 @@
 <!-- Logo -->
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e87fdd68894b4e66b8db7108b3571cf6)](https://app.codacy.com/app/red-gold/react-social-network?utm_source=github.com&utm_medium=referral&utm_content=red-gold/react-social-network&utm_campaign=Badge_Grade_Dashboard)
-[![Gitter](https://badges.gitter.im/react-social-network/Lobby.svg)](https://gitter.im/react-social-network/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 The React Social Network is an open source project relying on [React](https://facebook.github.io/react/docs/hello-world.html) a powerful javascript library for building the user interface. In this project, I tried to show some features of react/react components as a social network. 
 The structure of this project give the ability to developer to develop their project on their own idea and environment.
 
@@ -13,7 +10,7 @@ The structure of this project give the ability to developer to develop their pro
 </p>
 
 ## Before Starting
-First of all this is a boilerplate react social and the purpose is to find the best way to implement a huge project such as social network by [React](https://facebook.github.io/react/docs/hello-world.html) . We learn what technology or algorithm could be better solution for our project by [React](https://facebook.github.io/react/docs/hello-world.html). Please approach to this project with these ideas and if you feel that you have better solution, to our great pleasure if we could have your contribution.
+This is a boilerplate react social and the purpose is to find the best way to implement a huge project such as social network by [React](https://facebook.github.io/react/docs/hello-world.html) . We learn what technology or algorithm could be better solution for our project by [React](https://facebook.github.io/react/docs/hello-world.html). Please approach to this project with these ideas and if you feel that you have better solution, to our great pleasure if we could have your contribution.
   - You are the person who is new to [React](https://facebook.github.io/react/docs/hello-world.html) and you are looking for some ideas to start [React](https://facebook.github.io/react/docs/hello-world.html) with some basic stuff. Also you are the fan of [React Semantic UI](https://react.semantic-ui.com/) I recommend you start with [React Blog Project](https://github.com/Qolzam/react-blog).
   - You are the person who has the base knowledge of [React](https://facebook.github.io/react/docs/hello-world.html) which provided in [React Blog Project](https://github.com/Qolzam/react-blog) and you are the fan of social network projects, [Material-UI](http://www.material-ui.com/#/). You are the person who love JS/JSX. [js-react-social-tutorial](https://github.com/Qolzam/js-react-social-tutorial) project will be recommended.
   - You are the fan of pure [Redux](http://redux.js.org/) with [redux-thunk](https://github.com/gaearon/redux-thunk), [TypeScript](https://www.typescriptlang.org/), [InversifyJS](http://inversify.io/) IOC container and you have the knowledge enough about the stuff in [js-react-social-tutorial](https://github.com/Qolzam/js-react-social-tutorial). [Version 0.5.0 branch of react-social-network](https://github.com/Qolzam/react-social-network/tree/v0.5) is the place you can find yourself.
@@ -37,7 +34,8 @@ I recommend that you get to know React before using React Social Network. React 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -55,7 +53,7 @@ and then install the package
 
 ### Installing
 
-> You also have this [blog](https://medium.com/@qolzam/create-social-network-by-react-js-fe60010a32e6) which explain installation in details and for all level.
+> You also have this [blog](https://medium.com/@qolzam/create-social-network-by-react-js-fe60010a32e6) which explains installation in details.
 
 1. Fork the [react-social-network](https://github.com/red-gold/react-social-network) repository on Github
 1. Clone your fork to your local machine 
@@ -95,8 +93,6 @@ and then install the package
       * Enable firestore dependencies
         * Go to React Social Network folder in `src/socialEngine.ts` write `useFirestore(provider)` to enable firestore dependencies!
 
-    #### With [ASP.NET](https://github.com/Qolzam/aspnet-core-social-network)
-      * Coming soon ...
 1. Go ahead ;)
     ```bash
     npm start
@@ -132,7 +128,7 @@ There are three main layers:
   - Add reset password, confirm password and authorizing by GitHub, Google and Facebook.
   - Add scroll auto loading for show posts and people pages.
   - Using [Firestore](https://firebase.google.com/docs/firestore/)
-  - Supportig `Right To Left`
+  - Supporting `Right To Left`
   - Some cool stuff :)
 ## Can I connect React Social Network to other data platforms ? :bowtie:
   Your server side is on `PHP`, `Java`,`ASP.NET`, `Python`, etc. Or you are using serverless platforms such as `Google Cloud`, `AWS`, `Azure`, etc. You can connect `React Social Network` to any data platform. You only need to implement the [interfaces of core services](https://github.com/red-gold/react-social-network/tree/next/src/core/services) like implementation of [firestoreClient](https://github.com/red-gold/react-social-network/tree/next/src/data/firestoreClient).
