@@ -2,9 +2,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e87fdd68894b4e66b8db7108b3571cf6)](https://app.codacy.com/app/red-gold/react-social-network?utm_source=github.com&utm_medium=referral&utm_content=red-gold/react-social-network&utm_campaign=Badge_Grade_Dashboard)
 [![Gitter](https://badges.gitter.im/react-social-network/Lobby.svg)](https://gitter.im/react-social-network/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<br/>
-<a href="https://github.com/red-gold/react-social-network/blob/next/README.cn.md">中文</a>
-<br/>
+
 The React Social Network is an open source project relying on [React](https://facebook.github.io/react/docs/hello-world.html) a powerful javascript library for building the user interface. In this project, I tried to show some features of react/react components as a social network. 
 The structure of this project give the ability to developer to develop their project on their own idea and environment.
 
@@ -31,19 +29,12 @@ I recommend that you get to know React before using React Social Network. React 
 
 (If you're not familiar with the concept of Single Page Applications (SPAs), head over to the [here](https://www.codeschool.com/beginners-guide-to-web-development/single-page-applications) for a quick introduction before you read on.
 
-## Document
-
- Comming soon :) ...
-
 
 ## Roadmap
-### Supporting diverse data platforms
    Platform  | Accessible
 ------------ | -------------
 [Firebase/Firestore](firebase.google.com/cloud/firestore‎) | :+1:
-[Amazon Web Service (AWS)](https://aws.amazon.com/) | On Developing :zap:
-[Azure](https://aws.amazon.com/) | Future Support :star:
-[ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) | On Developing :zap:
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -104,8 +95,6 @@ and then install the package
       * Enable firestore dependencies
         * Go to React Social Network folder in `src/socialEngine.ts` write `useFirestore(provider)` to enable firestore dependencies!
 
-    #### With AWS 
-      * Coming soon ...
     #### With [ASP.NET](https://github.com/Qolzam/aspnet-core-social-network)
       * Coming soon ...
 1. Go ahead ;)
@@ -131,6 +120,7 @@ There are three main layers:
 
 ### IOC Container
   - Using [InversifyJS](http://inversify.io/) in project give us the ability to switch between custom dependencies easily. Specially for *data layer*, if you are the user working with [AWS](https://aws.amazon.com/) you only need to call `useAws()` or using [Firebase](https://firebase.google.com/) call `useFirestore()` in [SocialEngine](https://github.com/red-gold/react-social-network/blob/next/src/socialEngine.ts#L20) file.
+  
 ### Features
   - We moved from custom webpack to [create-react-app](https://github.com/facebook/create-react-app).
   - Moving on [redux-saga](https://redux-saga.js.org/) managing async request and side effects.
@@ -198,20 +188,6 @@ I'd greatly appreciate any [contribution](https://github.com/red-gold/react-soci
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/red-gold/react-social-network/tags). 
 
-## Authors
-
-  - Amir Movahedi
-  - See also the list of [contributors](https://github.com/red-gold/react-social-network/contributors) who participated in this project.
-
-## How To Support
-- [Contribution](https://github.com/red-gold/react-social-network/blob/next/CONTRIBUTING.md)
-- Fork || Star
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/red-gold/react-social-network/blob/next/LICENSE) file for details
-
-
-## Acknowledgments
 
 * React
 * Firebase
